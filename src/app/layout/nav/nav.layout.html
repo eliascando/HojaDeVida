@@ -1,0 +1,26 @@
+<div class="nav">
+    <div class="presentacion-perfil">
+        <h1>Elías Cando</h1>
+        <h4>Desarrollador de Software</h4>
+        <p>Enfocado en la creación de soluciones de calidad y la mejora continua.</p>
+    </div>
+    <div class="menu-page">
+        <ul>
+        <li>
+            <button [ngClass]="{'active': isLocationActive('about')}" (click)="setLocation('about')">ACERCA DE MI</button>
+        </li>
+        <li>
+            <button [ngClass]="{'active': isLocationActive('experience')}" (click)="setLocation('experience')">EXPERIENCIA</button>
+        </li>
+        <li>
+            <button [ngClass]="{'active': isLocationActive('projects')}" (click)="setLocation('projects')">PROYECTOS</button>
+        </li>
+        </ul>
+    </div>
+    <div class="redes-sociales">
+        <a href="https://github.com/eliascando/" target="_blank" rel="noreferrer"><img height="30px" width="30px" src="../../../assets/github.svg" /></a>
+        <a href="https://linkedin.com/in/eliascando" target="_blank" rel="noreferrer"><img height="30px" width="30px" src="../../../assets/linkedin.svg" /></a>
+        <a href="https://www.instagram.com/cando.elias/" target="_blank" rel="noreferrer"><img height="30px" width="30px" src="../../../assets/instagram.svg" /></a>
+    </div>
+</div>
+  

@@ -1,27 +1,31 @@
-# HolaDeVida
+# HojaDeVida
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+Este proyecto es la prueba de diagnóstico de la materia de Desarrollo de Aplicaciones Web Avanzado.
 
-## Development server
+# Antecedentes
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este sitio web lo había hecho anteriormente con React [(eliascando_com)](https://github.com/eliascando/eliascando_com.git) y en este caso se procedió a copiar la estructura y maqueta para finalmente adaptarlo al framework de Angular con sus tipos, módulos y demás cosas.
 
-## Code scaffolding
+## Para ejecutar este proyecto en entorno de desarrollo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Instalar el cli de Angular
+```
+npm install -g @angular/cli
+```
+2. Clonar el repositorio en su maquina local
+```
+git clone https://github.com/eliascando/HojaDeVida.git
+```
+3. Se debe ubicar en la carpeta del proyecto
+```
+cd user/ruta/destino/HojaDeVida
+```
+4. Hacer la instalación de los paquetes del node modules
+```
+npm install
+```
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Correr el proyecto con el angular-cli
+```
+ng serve --open
+```

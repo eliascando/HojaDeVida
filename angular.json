@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hola-de-vida",
+            "outputPath": "dist/hoja-de-vida",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "HolaDeVida:build"
+            "browserTarget": "HojaDeVida:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

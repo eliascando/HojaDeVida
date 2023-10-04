@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fira+Code:wght@300&display=swap');
+
+* {
+  font-family: 'Fira Code', monospace;
+  text-align: justify;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body{
+  background-color: #18181b;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}

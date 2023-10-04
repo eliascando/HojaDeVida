@@ -1,0 +1,30 @@
+.about{
+    /*background: red;*/
+    margin-bottom: 25%;
+}
+.about p{
+    margin-bottom: 2%;
+    text-align: left;
+}
+/*.responsive{
+    display: none;
+}*/
+
+@media screen and (max-width: 890px){
+    .about{
+        margin-bottom: 10%;
+    }
+    .responsive{
+        display: block;
+        margin-left: 0;
+        margin-bottom: 5%;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background: rgb(12, 10, 10);
+        width: 100%;
+        border-radius: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+}

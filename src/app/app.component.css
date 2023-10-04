@@ -1,0 +1,38 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10%;
+}
+
+@media screen and (max-width: 890px){
+    .App{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.content{
+    /*background: red;*/
+    height: 100vh;
+    padding: 2%;
+    width: 50%;
+    padding-top: 12%;
+    margin-right: -40%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 890px){
+    .content{
+        width: 100%;
+    }
+}
